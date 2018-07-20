@@ -1,0 +1,12 @@
+This Api is tried and tested on Apache Tomcat 7.0
+CRUD operation are performed
+Steps to test the Api
+1)Build the project in Maven
+2)Run on Tomcat Server
+3)Note down the link http://localhost:8080/ObjectStoreExample/rest/countries
+4)Use Postman tool to see the Api response(Chrome Extension)
+5)Try with Different parameter on Postman(Get,Post,Put,Delete)
+6)Copy the link and see response in postman
+7)for posting add country name in body part of postman
+8)you can delete certain parameter directly(eg http://localhost:8080/ObjectStoreExample/rest/countries/4)
+will delete the data with id 4
